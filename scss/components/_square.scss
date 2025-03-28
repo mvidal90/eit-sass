@@ -1,0 +1,11 @@
+
+.square {
+    @include square(6rem, 1rem);
+    @include respond-to (desktop) {
+        background-color: green;
+    };
+    @include respond-to (mobile) {
+        background-color: rgb(92, 16, 92);
+        @include align-items(center, column);
+    }
+}

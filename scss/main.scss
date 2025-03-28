@@ -1,9 +1,12 @@
 
 @import "utils/helpers";
+@import "utils/mixins";
 @import "utils/variables";
 
 @import "base/base";
 @import "components/buttons";
 @import "components/inputs";
 @import "components/searcher";
+@import "components/square";
 @import "layout/products";
+@import "pages/home";
